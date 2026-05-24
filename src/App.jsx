@@ -1,7 +1,9 @@
-import Navbar from "./sections/Navbar";
+﻿import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import Features from "./sections/Features";
+import About from "./sections/About";
 import Menu from "./sections/Menu";
+import Gallery from "./sections/Gallery";
 import Reservation from "./sections/Reservation";
 import Chefs from "./sections/Chefs";
 import Testimonials from "./sections/Testimonials";
@@ -13,7 +15,9 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
+      <About />
       <Menu />
+      <Gallery />
       <Reservation />
       <Chefs />
       <Testimonials />

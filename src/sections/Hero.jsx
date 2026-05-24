@@ -1,4 +1,4 @@
-import Container from "../components/Container";
+﻿import Container from "../components/Container";
 
 const Hero = () => {
   return (
@@ -25,13 +25,96 @@ const Hero = () => {
               Experience world-class dining with exceptional cuisine and unforgettable moments.
             </p>
 
-            <button className="mt-10 px-8 py-4 bg-red-500 rounded-xl font-semibold">
-              Book Now
-            </button>
+            <div className="flex gap-4 mt-10">
+
+              <button className="px-8 py-4 bg-red-500 rounded-xl font-semibold">
+                Book Now
+              </button>
+
+              <button className="px-8 py-4 border border-white/10 rounded-xl">
+                View Menu
+              </button>
+
+            </div>
 
           </div>
 
-          <div className="h-[500px] rounded-[40px] bg-gradient-to-br from-red-500/20 to-slate-900 border border-white/10"></div>
+          <div className="bg-slate-900 border border-white/10 rounded-[40px] p-8">
+
+            <div className="flex justify-between items-center mb-8">
+
+              <div>
+                <h3 className="text-2xl font-bold">
+                  VIP Reservation
+                </h3>
+
+                <p className="text-slate-400">
+                  Available Tonight
+                </p>
+              </div>
+
+              <div className="text-green-400 font-bold">
+                OPEN
+              </div>
+
+            </div>
+
+            <div className="space-y-5">
+
+              <div className="flex justify-between">
+                <span>Available Tables</span>
+                <span className="text-red-500 font-bold">12</span>
+              </div>
+
+              <div className="flex justify-between">
+                <span>Reservations Today</span>
+                <span className="text-red-500 font-bold">128</span>
+              </div>
+
+              <div className="flex justify-between">
+                <span>Average Wait Time</span>
+                <span className="text-red-500 font-bold">8 Min</span>
+              </div>
+
+              <div className="flex justify-between">
+                <span>Guest Rating</span>
+                <span className="text-red-500 font-bold">4.9/5</span>
+              </div>
+
+            </div>
+
+            <div className="grid grid-cols-3 gap-4 mt-10">
+
+              <div className="bg-black rounded-2xl p-4 text-center">
+                <h4 className="text-red-500 font-bold">
+                  50+
+                </h4>
+                <p className="text-xs text-slate-400">
+                  Dishes
+                </p>
+              </div>
+
+              <div className="bg-black rounded-2xl p-4 text-center">
+                <h4 className="text-red-500 font-bold">
+                  12
+                </h4>
+                <p className="text-xs text-slate-400">
+                  Chefs
+                </p>
+              </div>
+
+              <div className="bg-black rounded-2xl p-4 text-center">
+                <h4 className="text-red-500 font-bold">
+                  18
+                </h4>
+                <p className="text-xs text-slate-400">
+                  Awards
+                </p>
+              </div>
+
+            </div>
+
+          </div>
 
         </div>
 
