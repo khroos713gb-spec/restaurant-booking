@@ -1,4 +1,4 @@
-﻿import Container from "../components/Container";
+import Container from "../components/Container";
 
 const Hero = () => {
   return (
@@ -90,7 +90,7 @@ const Hero = () => {
                   50+
                 </h4>
                 <p className="text-xs text-slate-400">
-                  Dishes
+                  Signature Menu
                 </p>
               </div>
 
@@ -99,7 +99,7 @@ const Hero = () => {
                   12
                 </h4>
                 <p className="text-xs text-slate-400">
-                  Chefs
+                  Master Chefs
                 </p>
               </div>
 
@@ -108,7 +108,7 @@ const Hero = () => {
                   18
                 </h4>
                 <p className="text-xs text-slate-400">
-                  Awards
+                  Industry Awards
                 </p>
               </div>
 
@@ -125,3 +125,4 @@ const Hero = () => {
 };
 
 export default Hero;
+

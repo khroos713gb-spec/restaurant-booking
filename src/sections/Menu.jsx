@@ -1,4 +1,4 @@
-import Container from "../components/Container";
+﻿import Container from "../components/Container";
 
 const Menu = () => {
 
@@ -48,8 +48,8 @@ const Menu = () => {
               className="bg-slate-900 border border-white/10 rounded-3xl p-6 hover:-translate-y-2 transition-all duration-300"
             >
 
-              <div className="text-5xl mb-5">
-                ??
+              <div className="inline-block px-3 py-1 rounded-full bg-red-500/20 text-red-400 text-sm mb-5">
+                Chef Special
               </div>
 
               <h3 className="text-xl font-bold">
@@ -61,7 +61,7 @@ const Menu = () => {
               </p>
 
               <div className="text-yellow-400 mt-4">
-                ? {item.rating}
+                Rating: {item.rating}
               </div>
 
               <div className="text-red-500 text-2xl font-bold mt-4">
